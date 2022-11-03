@@ -8,7 +8,7 @@ public class main
 				System.out.println("hi");
 
 				
-
+				System.out.println("Word");
 				
 				System.out.println("Yo");
 
