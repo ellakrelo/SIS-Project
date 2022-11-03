@@ -8,8 +8,8 @@ public class main
 				System.out.println("hi");
 
 				
-				System.out.println("Word");
-				//a
+				System.out.println("Word"); 
+				//a 
 				
 				System.out.println("Yo");
 				System.out.println("ha");
