@@ -1,11 +1,16 @@
+import java.util.Comparator;
 
-public class sortGPA
+public class sortGPA implements Comparator<Student>
 	{
-
-		public static void main(String[] args)
-			{
-				// TODO Auto-generated method stub
-
-			}
-
+		public int compare(Student s1, Student s2)
+		{
+			if(s1.getGpa() < s2.getGpa())
+				{
+					return 1;
+				}
+			else
+				{
+					return -1;
+				}
+		}
 	}
