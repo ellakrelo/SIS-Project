@@ -19,5 +19,26 @@ public class MainMenu
 				System.out.println("What would you like to do next?\n (1) List Students\n (2) Add or Delete a Student\n (3) Change Grades/Schedule\n (4) Sort Students");
 				input = userIntInput.nextInt();
 				
+				if(input == 1)
+					{
+						
+					}
+				else if(input == 2)
+					{
+						
+					}
+				else if(input == 3)
+					{
+						
+					}
+				else if(input == 4)
+					{
+						
+					}
+				else
+					{
+						System.out.println("I'm sorry, that is not an option. Please try again.\n");
+						mainMenu();
+					}
 			}
 	}
