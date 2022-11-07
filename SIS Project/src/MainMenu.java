@@ -25,7 +25,7 @@ public class MainMenu
 					}
 				else if(input == 2)
 					{
-						
+						//Change.main();
 					}
 				else if(input == 3)
 					{
