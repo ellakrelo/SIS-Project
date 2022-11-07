@@ -1,6 +1,6 @@
 import java.util.Comparator;
 
-public class sortLastname implements Comparator<Student>
+public class SortLastname implements Comparator<Student>
 	{
 		public int compare(Student s1, Student s2)
 		{
