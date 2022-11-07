@@ -45,17 +45,17 @@ public class MainMenu
 						
 							if(input == 1)
 								{
-									sortLastname.compare();
+									SortLastname.compare();
 									//list method
 								}
 							else if(input == 2)
 								{
-									sortGPA.compare();
+									SortGPA.compare();
 									//list method
 								}
 							else if(input == 3)
 								{
-									sortPeriod.compare();
+									SortPeriod.compare();
 									//list method
 								}
 							else
