@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Roster
 	{
-		static ArrayList<Student> roster = new ArrayList<Student>();
+		static public ArrayList<Student> roster = new ArrayList<Student>();
 		
 		public static void main(String[] args) throws IOException
 			{
@@ -38,7 +38,7 @@ public class Roster
 		{
 			for(int i = 0; i < roster.size(); i++)
 				{
-					System.out.println(roster.get(i));
+					System.out.println(roster.get(i).getFirstName()/t + roster.get(i).getLastName()\t);
 				}
 		}
 	}
