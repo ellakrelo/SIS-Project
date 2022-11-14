@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class MainMenu
@@ -7,21 +8,23 @@ public class MainMenu
 		static Scanner userStringInput = new Scanner(System.in);
 		static String pause = "";
 		
-		public static void main(String[] args)
+		public static void main(String[] args) throws IOException
 			{
 				System.out.println("Welcome to the student information system! Press enter to continue.");
 				pause = userIntInput.nextLine();
 				mainMenu();
 			}
 		
-		public static void mainMenu()
+		public static void mainMenu() throws IOException
 			{
+				Roster.fillRoster();
+				
 				System.out.println("What would you like to do next?\n (1) List Students\n (2) Add or Delete a Student\n (3) Change Grades/Schedule\n (4) Sort Students");
 				input = userIntInput.nextInt();
 				
 				if(input == 1)
 					{
-						//list method
+						Roster.listRoster();
 						mainMenu();
 					}
 				else if(input == 2)
@@ -46,17 +49,17 @@ public class MainMenu
 							if(input == 1)
 								{
 									//SortLastname.compare();
-									//list method
+									Roster.listRoster();
 								}
 							else if(input == 2)
 								{
 									//SortGPA.compare();
-									//list method
+									Roster.listRoster();
 								}
 							else if(input == 3)
 								{
 									//SortPeriod.compare();
-									//list method
+									Roster.listRoster();
 								}
 							else
 								{
