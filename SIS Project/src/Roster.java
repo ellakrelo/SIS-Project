@@ -38,7 +38,7 @@ public class Roster
 		{
 			for(int i = 0; i < roster.size(); i++)
 				{
-					System.out.println(roster.get(i).getFirstName()/t + roster.get(i).getLastName()\t);
+					System.out.println(roster.get(i).getFirstName() + " " + roster.get(i).getLastName() + " GPA: " + roster.get(i).getGpa() + " First Class: " + roster.get(i).getFirstClass() + " Grade: " + roster.get(i).getFirstGrade() + " Second Class: " + roster.get(i).getSecondClass() + " Grade: " + roster.get(i).getSecondGrade() + " Third Class: " + roster.get(i).getThirdClass() + " Grade: " + roster.get(i).getThirdGrade());
 				}
 		}
 	}
