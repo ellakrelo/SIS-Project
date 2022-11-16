@@ -10,6 +10,7 @@ public class Roster
 		public static void main(String[] args) throws IOException
 			{
 				fillRoster();
+				gpaCalculate();
 				listRoster();
 			}
 		
@@ -22,7 +23,7 @@ public class Roster
 					{
 						String firstName = file.next();
 						String lastName = file.next();
-						double gpa = 0.0;
+						double gpa = 0.00;
 						String period1 = file.next();
 						String period1Grade = file.next();
 						String period2 = file.next();
@@ -32,6 +33,11 @@ public class Roster
 						
 						roster.add(new Student(firstName, lastName, gpa, period1, period1Grade, period2, period2Grade, period3, period3Grade));
 					}
+			}
+		
+		public static void gpaCalculate()
+			{
+				
 			}
 		
 		public static void listRoster()

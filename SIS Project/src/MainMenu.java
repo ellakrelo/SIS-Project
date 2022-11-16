@@ -29,7 +29,7 @@ public class MainMenu
 					}
 				else if(input == 2)
 					{
-						//Add/Delete
+						AddDelete.main(null);
 						System.out.println("Please press enter to return to the main menu.");
 						pause = userIntInput.nextLine();
 						mainMenu();
